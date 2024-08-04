@@ -2,9 +2,9 @@ import React from 'react'
 
 const Projects = () => {
   return (
-      <section className="projects-container">
+      <section className="projects-container" id='projects'>
         <div className="container">
-          <h1 className='heading'>projects</h1>
+          <h1 className='heading' data-aos='flip-down'>projects</h1>
             <div className="projects">
               <div className="project">
                   <div className="img-cover">

@@ -1,14 +1,13 @@
 import React from 'react'
-
 const About = () => {
   return (
-    <section class="about">
-        <div class="container">
+    <section className="about" id='about'>
+        <div className="container">
           <div className="about-container">
-            <div className="about-image">
+            <div className="about-image" data-aos="fade-left">
               <img src="images/cade.PNG" alt />
             </div>
-            <div class="about-text">
+            <div class="about-text" data-aos="fade-right">
                 <h2>Mohamed Abdi</h2>
                 <p>Welcome to my portfolio! I'm a web developer and designer 
                   passionate about creating beautiful and functional websites. 

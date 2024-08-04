@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         </div>
 
         <div className="logo">
-            <h3>Cade Abdi ⏰</h3>
+            <h3>Mohamed</h3>
         </div>
 
         <div className="menu">
@@ -20,23 +21,22 @@ const Header = () => {
 
             <ul className="nav-list flex-content">
                 <li className="nav-item">
-                    <a href="#" className="nav-link">Home</a>
+                    <Link to="/" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#top-projects" className="nav-link">About</a>
+                    <Link to="about" spy={true} smooth={true} offset={50} duration={500} className="nav-link">About</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#about" className="nav-link">Skills</a>
+                    <Link to="skills" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Skills</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#projects" className="nav-link">Projects</a>
+                    <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Projects</Link>
                 </li>
                 <li className="nav-item">
-                    <a href="#contacts" className="nav-link">Contacts</a>
+                    <Link to="contacts" spy={true} smooth={true} offset={50} duration={500} className="nav-link">Contacts</Link>
                 </li>
             </ul>
         </div>
-        
     </div>
 </nav>
 </header>

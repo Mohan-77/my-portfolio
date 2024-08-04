@@ -159,6 +159,9 @@
   .showcase-content .left h4{
       margin-top: 0.5rem;
   }
+  html{
+    scroll-behavior: smooth;
+  }
 }
 
 ul,
@@ -184,8 +187,11 @@ img{
 }
 .menu .top{
     display: none;
+    /* position: fixed;
+    width: 100%; */
 
 }
+
 
 .flex-content{
     display: flex;
@@ -251,6 +257,7 @@ li{
 a{
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 p, a{
   line-height: 2;
@@ -338,6 +345,7 @@ img{
   border-radius: 50%;
   border: 20px solid var(--lighr-gray);
 }
+
 .shape{
   position: absolute;
   top: 0;
@@ -346,8 +354,8 @@ img{
   height: 100%;
   background-color: var(--light-orange);
   clip-path: circle(600px at right 850px);
-  /* z-index: 2; */
-}
+  z-index: 2;
+} 
 
 .title h1{
   font-weight: 400px;
@@ -361,7 +369,7 @@ img{
 /* Skills */
 .skills{
   padding: 120px 0;
-  background-color: var(--primary-color);
+  background-color: black;
   color: white;
 }
 .skills .heading{

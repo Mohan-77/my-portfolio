@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="showcase">
+    <div className="showcase" id='showcase'>
         <div className="container">
             <div className="showcase-content flex-content container">
                 <div className="left">
